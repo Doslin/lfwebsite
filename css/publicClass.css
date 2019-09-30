@@ -1,0 +1,142 @@
+.header-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;/*容器内项目换行方式*/
+    justify-content: center;/*项目在主轴上的对齐方式*/
+    align-items: center;/*项目在交叉轴上如何对齐*/
+    align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+}
+.header-text .header-text-line1 {
+    width:77px;
+    height:5px;
+    background:rgba(0,106,255,1);
+    margin-bottom: 44px;
+    margin-top: 106px;
+}
+.header-text-item {
+    font-size:22px;
+    font-family:PingFangSC-Regular,PingFangSC;
+    font-weight:400;
+    color:rgba(103,108,118,1);
+    line-height:38px;
+}
+.header-text-line2 {
+    height:45px;
+    font-size:32px;
+    font-family:PingFangSC-Semibold,PingFangSC;
+    font-weight:600;
+    color:rgba(20,31,51,1);
+    line-height:45px;
+    margin-top: 106px;
+    margin-bottom: 44px;
+}
+.header-text-item2 {
+    font-size:20px;
+    font-family:PingFangSC-Regular,PingFangSC;
+    font-weight:400;
+    color:rgba(59,70,87,1);
+    line-height:28px;
+}
+.header-text-item2-3 {
+    margin-top: 30px;
+    font-size:16px;
+    font-family:PingFangSC-Medium,PingFangSC;
+    font-weight:500;
+    color:rgba(0,106,255,1);
+    line-height:22px;
+}
+.influence {
+    display: flex;
+    margin-top: 133px;
+    /*flex-wrap: wrap;!*容器内项目换行方式*!*/
+    justify-content: center;/*项目在主轴上的对齐方式*/
+    align-items: center;/*项目在交叉轴上如何对齐*/
+    align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+}
+.influence .pain-spot-image {
+    width:296px;
+    height:157px;
+    background:rgba(216,216,216,1);
+    border:1px solid rgba(151,151,151,1);
+}
+.influence-blank {
+    width: 269px;
+}
+.influence .pain-spot-text {
+    width:461px;
+    font-size:20px;
+    font-family:PingFangSC-Regular,PingFangSC;
+    font-weight:400;
+    color:rgba(59,70,87,1);
+    line-height:28px;
+}
+.influence-title {
+    margin-bottom: 30px;
+}
+.range {
+    display: flex;
+    margin-top: 160px;
+    flex-direction: column;
+    /*flex-wrap: wrap;!*容器内项目换行方式*!*/
+    justify-content: center;/*项目在主轴上的对齐方式*/
+    align-items: center;/*项目在交叉轴上如何对齐*/
+    align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+}
+ .range-title {
+    font-size:32px;
+    font-family:PingFangSC-Semibold,PingFangSC;
+    font-weight:600;
+    color:rgba(20,31,51,1);
+    line-height:45px;
+    margin-bottom: 42px;
+}
+.range .range-text {
+    font-size:20px;
+    font-family:PingFangSC-Regular,PingFangSC;
+    font-weight:400;
+    color:rgba(59,70,87,1);
+    line-height:32px;
+}
+.participate-range {
+    display: flex;
+    margin-top: 160px;
+    flex-direction: column;
+    /*flex-wrap: wrap;!*容器内项目换行方式*!*/
+    justify-content: center;/*项目在主轴上的对齐方式*/
+    align-items: center;/*项目在交叉轴上如何对齐*/
+    align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+}
+.participate-range-text {
+    font-size:20px;
+    font-family:PingFangSC-Regular,PingFangSC;
+    font-weight:400;
+    color:rgba(59,70,87,1);
+    line-height:28px;
+}
+.course {
+    display: flex;
+    margin-top: 160px;
+    /*flex-wrap: wrap;!*容器内项目换行方式*!*/
+    justify-content: space-around;/*项目在主轴上的对齐方式*/
+    align-items: center;/*项目在交叉轴上如何对齐*/
+    align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+}
+.course-text {
+    width:448px;
+    height:112px;
+    font-size:20px;
+    font-family:PingFangSC-Regular,PingFangSC;
+    font-weight:400;
+    color:rgba(59,70,87,1);
+    line-height:28px;
+}
+.lf-partner .lf-partner-title{
+    font-size:48px;
+    font-family:PingFangSC-Semibold,PingFangSC;
+    font-weight:600;
+    color:rgba(20,31,51,1);
+    line-height:67px;
+    margin-bottom: 30px;
+}
+
+

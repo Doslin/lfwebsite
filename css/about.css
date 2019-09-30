@@ -1,0 +1,135 @@
+@media screen and (min-width: 768px){
+    .about2-man{
+        display: flex;
+        /*flex-direction: column;*/
+        /*flex-wrap: wrap;!*容器内项目换行方式*!*/
+        justify-content: center;/*项目在主轴上的对齐方式*/
+        align-items: left;/*项目在交叉轴上如何对齐*/
+        align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+    }
+    .about2-man-intro {
+        padding-right: 72px !important;
+    }
+    .about2-name {
+        font-size:20px;
+        text-align: center;
+        font-family:PingFangSC-Semibold,PingFangSC;
+        font-weight:600;
+        color:rgba(31,35,41,1);
+        line-height:28px;
+    }
+    .about2-range{
+        text-align: center;
+        font-size:16px;
+        margin-bottom: 17px;
+        font-family:PingFangSC-Medium,PingFangSC;
+        font-weight:500;
+        color:rgba(24,114,255,1);
+        line-height:22px;
+    }
+    .why-lark #about2-mans .feature-card {
+        margin-top: 80px;
+        width: 270px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .wel {
+        display: flex;
+        /*flex-direction: column;*/
+        /*flex-wrap: wrap;!*容器内项目换行方式*!*/
+        justify-content: center;/*项目在主轴上的对齐方式*/
+        align-items: left;/*项目在交叉轴上如何对齐*/
+        align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+    }
+    .wel-1 {
+        width:521px;
+        height:126px;
+        font-size:30px;
+        font-family:PingFangSC-Medium,PingFangSC;
+        font-weight:500;
+        color:rgba(31,35,41,1);
+        line-height:42px;
+    }
+    .wel-2 {
+        width:728px;
+        height:64px;
+        font-size:20px;
+        font-family:PingFangSC-Regular,PingFangSC;
+        font-weight:400;
+        color:rgba(59,70,87,1);
+        line-height:32px;
+        padding-top: 89px;
+        margin-left: 169px;
+    }
+}
+@media screen and (max-width: 767px){
+    /*.about2-man{*/
+    /*    display: flex;*/
+    /*    !*flex-direction: column;*!*/
+    /*    !*flex-wrap: wrap;!*容器内项目换行方式*!*!*/
+    /*    justify-content: center;!*项目在主轴上的对齐方式*!*/
+    /*    align-items: left;!*项目在交叉轴上如何对齐*!*/
+    /*    align-content: center;!*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*!*/
+    /*}*/
+    .about2-name {
+        font-size:20px;
+        text-align: center;
+        font-family:PingFangSC-Semibold,PingFangSC;
+        font-weight:600;
+        color:rgba(31,35,41,1);
+        line-height:110px;
+        margin-left: 40px;
+    }
+    .feature-card {
+        margin-bottom: 20px;
+    }
+    .about2-range{
+        text-align: center;
+        font-size:16px;
+        margin-bottom: 17px;
+        font-family:PingFangSC-Medium,PingFangSC;
+        font-weight:500;
+        color:rgba(24,114,255,1);
+        line-height:110px;
+        margin-left: 40px;
+    }
+    .why-lark #about2-mans .feature-card {
+        margin-top: 30.6vw;
+        margin-left: 0px;
+        text-align: center;
+        height: 22vw;
+
+    }
+    /*.about2-text {*/
+    /*    width: 20px;*/
+    /*}*/
+    .wel {
+        display: flex;
+        /*flex-direction: column;*/
+        /*flex-wrap: wrap;!*容器内项目换行方式*!*/
+        justify-content: center;/*项目在主轴上的对齐方式*/
+        align-items: left;/*项目在交叉轴上如何对齐*/
+        align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+        margin-top: 60px;
+    }
+    .wel-1 {
+        width:200px;
+        height:126px;
+        font-size:15px;
+        font-family:PingFangSC-Medium,PingFangSC;
+        font-weight:500;
+        color:rgba(31,35,41,1);
+        line-height:15px;
+    }
+    .wel-2 {
+        width:200px;
+        font-size:15px;
+        font-family:PingFangSC-Regular,PingFangSC;
+        font-weight:400;
+        color:rgba(59,70,87,1);
+        line-height:32px;
+        padding-top: 89px;
+        margin-left: 30px;
+    }
+}
+
