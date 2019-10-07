@@ -29,7 +29,7 @@
 
 <!--导航条-->
 <div class="wrapper">
-        <nav class="navbar navbar-default wjs_nav">
+        <nav class="navbar navbar-default  navbar-fixed-top wjs_nav">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -40,16 +40,16 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <span class="wjs_icon wjs_icon_logo"></span>
-<!--                        <span class="wjs_icon wjs_icon_text"></span>-->
+                        <span class="wjs_icon "><img src="./images/lf-logo.png" class="lf-logo" alt="" ></span>
+                        <!--                        <span class="wjs_icon wjs_icon_text"></span>-->
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav hidden-sm">
-                        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">支持合作</a></li>
-                        <li><a href="#">项目介绍</a></li>
-                        <li><a href="#">关于我们</a></li>
+                        <li class="active"><a href="./index.html" style="color: #006AFF">首页 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="./publicClass.html">支持合作</a></li>
+                        <li><a href="./project-introduction.html">项目介绍</a></li>
+                        <li><a href="./about.html">关于我们</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
 <!--                        <li><a href="#">申请试用</a></li>-->
@@ -63,17 +63,19 @@
             <div class="header-block">
                 <div class="index-header">
                     <div class="header-content">
-                        <div class="header-content_left"><h1 class="header-content_title">在飞书 享高效</h1>
+                        <div class="header-content_left">
+                            <h1 class="header-content_title">K12智能教育服务提供商</h1>
                             <h2 class="header-content_subtitle">
-                                K12智能教育服务提供商，一站式解决线下培训机构名师，招生、师资、运营等问题，为培训机构提供直播课程内容，题库和智能解决方案。</h2>
-<!--                            <div class="header-content_btn-box"><a class="headblock-start-btn"-->
-<!--                                                                   href="/create/?from=home-banner">免费使用</a>-->
-<!--                                <div class="video-btn">观看视频</div>-->
-<!--                            </div>-->
+                                一站式解决线下培训机构名师，招生、师资、运营等问题，为培训机构提供直播课程内容，题库和智能解决方案。</h2>
+                            <div class="header-content-button">
+                                <a href="#submit"> <input type="reset" style="color: #FFFFFF" class="submit" value="立即试用" /></a>
+                            </div>
                         </div>
-                        <div class="header-content_right"><img
-                                src="https://s1.pstatp.com/ee/feishu_website/static/img/header-bg.c77dfe8f7c.png"
-                                class="header-content_img" alt=""><i class="play-icon"></i></div>
+                        <div class="header-content_right">
+                            <img
+                                src="./images/index-01.png"
+                                class="header-content_img" alt=""><i class="play-icon"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -127,68 +129,96 @@
                     </div>
                     <div class="pain-spot">
                         <div class="pain-spot-title">培训机构痛点</div>
-                        <div class="pain-spot-text">
-                            <div class="pain-spot-text-main">
-                                <div>
-                                    <div class="pain-spot-text-title" style="text-align: right">严重依赖名师</div>
-                                    <div class="pain-spot-text forcefontsize8" style="text-align: right">优秀老师出走，招生难</div>
-                                    <div class="pain-spot-text-title" style="text-align: right">师资成本不合理</div>
-                                    <div class="pain-spot-text forcefontsize8" style="text-align: right">通识课程重复讲授，浪费人力成本</div>
-                                </div>
-                                <div class="pain-spot-image"></div>
-                                <div>
-                                    <div class="pain-spot-text-title">教学教研成本高</div>
-                                    <div class="pain-spot-text forcefontsize8" >缺少名师</div>
-                                    <div class="pain-spot-text-title">运营时间限制</div>
-                                    <div class="pain-spot-text forcefontsize8">学生上课时间集中，造成运营时间限制</div>
-
-                                </div>
-                            </div>
-                            <div class="pain-spot-text-title-fuwu pain-spot-text-title">服务能力差</div>
-                                <div class="pain-spot-text forcefontsize8" >作业批改、成绩考核依赖老 <div>师，影响服务能力</div>
-                            </div>
+                        <div class="pain-spot-title-img">
+                            <img src="./images/pain-spot.png" alt="" style="width: 100%">
                         </div>
                     </div>
                     <div class="solution">
-                        <div class="solution-main">
+                        <div class="solution-main famous-teacher-video-wrapper">
+                            <div class="img famous-teacher-video hidden-sm hidden-md hidden-lg">
+                                <img src="./images/famous-teacher-video.png" alt="" style="width: 100%;">
+                            </div>
                             <div class="solution-main-lin">
                                 <p class="solution-main-lin-title">名师视频课</p>
-                                <div>高质量课程内容输出</div>
+                                <div class="solution-main-lin-title-tips">高质量课程内容输出</div>
                             </div>
-                            <div class="solution-blank"></div>
-                            <div class="img"></div>
+                            <div class="solution-blank1"></div>
+                            <div class="img famous-teacher-video hidden-xs">
+                                <img src="./images/famous-teacher-video.png" alt="" style="width: 100%;">
+                            </div>
+
                         </div>
-                        <div class="solution-main">
-                            <div class="img-wrapper"><div class="img"></div></div>
-                            <div class="solution-blank"></div>
+                        <div class="solution-main polyline-area-wrapper">
+                            <div class="img-wrapper ">
+                                <div class="img polyline-area">
+                                    <img src="./images/polyline-area.png" alt="" style="width: 100%">
+                                </div>
+                            </div>
+                            <div class="solution-blank2"></div>
+                            <div class="solution-main-lin">
+                                <p class="solution-main-lin-title">智适应学习系统</p>
+                                <div class="solution-main-lin-title-tips">针对性解决知识点漏洞提升教学效果，实现教学质量规模化提升</div>
+                            </div>
+                        </div>
+                        <div class="solution-main yellow-coins-wrapper">
+                            <div class="img-wrapper hidden-sm hidden-md hidden-lg">
+                                <div class="img yellow-coins">
+                                    <img src="./images/yellow-coins.png" alt="" style="width: 100%;">
+                                </div>
+                            </div>
                             <div class="solution-main-lin">
                                 <p class="solution-main-lin-title">改善成本结构</p>
-                                <div>实现规模化增长，降低教学教研成本</div>
+                                <div class="solution-main-lin-title-tips">实现规模化增长，降低教学教研成本</div>
+                            </div>
+                            <div class="solution-blank3"></div>
+                            <div class="img-wrapper hidden-xs">
+                                <div class="img yellow-coins">
+                                    <img src="./images/yellow-coins.png" alt="" style="width: 100%;">
+                                </div>
                             </div>
                         </div>
-                        <div class="solution-main">
+                        <div class="solution-main well-done-wrapper">
+                            <div class="img-wrapper">
+                                <div class="img well-done">
+                                    <img src="./images/well-done.png" alt="" style="width: 100%;">
+                                </div>
+                            </div>
+                            <div class="solution-blank4"></div>
                             <div class="solution-main-lin">
                                 <p class="solution-main-lin-title">教学运营标准化</p>
-                                <div>不再依赖优秀老师，降低老师出走风险</div>
+                                <div class="solution-main-lin-title-tips">不再依赖优秀老师，降低老师出走风险</div>
                             </div>
-                            <div class="solution-blank"></div>
-                            <div class="img-wrapper"><div class="img"></div></div>
+
                         </div>
                         <a  class="solution-button"  href="#submit"><div>申请试用</div></a>
                     </div>
                     <div class="intelligent-learning-engine">
                         <div class="pain-spot-title">智能学习引擎</div>
-                        <div class="intelligent-learning-engine-main">
+                        <div class="intelligent-learning-engine-main learning-situation-detection-wrapper">
+                            <div class="img-wrapper hidden-sm hidden-md hidden-lg">
+                                <div class="img learning-situation-detection"  >
+                                    <img src="./images/learning-situation-detection.png" style="width: 100%" alt="">
+                                </div>
+                            </div>
                             <div class="intelligent-learning-engine-main-lin">
                                 <p class="intelligent-learning-engine-text-title">人工智能学情检测</p>
                                 <div>智能测评，定位薄弱知识点；精准推送习题，</div>
                                 <div>查缺补漏，支持招生教学的多样需求</div>
                             </div>
                             <div class="intelligent-learning-blank"></div>
-                            <div class="img-wrapper"><div class="img"></div></div>
+                            <div class="img-wrapper hidden-xs">
+                                <div class="img learning-situation-detection"  >
+                                    <img src="./images/learning-situation-detection.png" style="width: 100%" alt="">
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="intelligent-learning-engine-main">
-                            <div class="img-wrapper"><div class="img"></div></div>
+                        <div class="intelligent-learning-engine-main column-fold-line-wrapper">
+                            <div class="img-wrapper">
+                                <div class="img column-fold-line">
+                                    <img src="./images/column-fold-line.png" alt="" width="100%">
+                                </div>
+                            </div>
                             <div class="intelligent-learning-blank"></div>
                             <div class="intelligent-learning-engine-main-lin">
                                 <p class="intelligent-learning-engine-text-title">打造机构内容竞争力</p>
@@ -198,7 +228,12 @@
                                 <div>自身课程内容，降低运营成本，抢占市场先机</div>
                             </div>
                         </div>
-                        <div class="intelligent-learning-engine-main">
+                        <div class="intelligent-learning-engine-main data-analysis-wrapper">
+                            <div class="img-wrapper hidden-sm hidden-md hidden-lg">
+                                <div class="img data-analysis">
+                                    <img src="./images/data-analysis.png" alt="" style="width: 100%">
+                                </div>
+                            </div>
                             <div class="intelligent-learning-engine-main-lin">
                                 <p class="intelligent-learning-engine-text-title">学习数据分析</p>
                                 <div>老师上课数据监控，实时判断学生学习状态；学</div>
@@ -206,11 +241,20 @@
                                 <div>理、教务管理、学生管理三位一体。</div>
                             </div>
                             <div class="intelligent-learning-blank"></div>
-                            <div class="img-wrapper"><div class="img"></div></div>
-                        </div>
-                        <div class="intelligent-learning-engine-main">
+                            <div class="img-wrapper hidden-xs">
+                                <div class="img data-analysis">
+                                    <img src="./images/data-analysis.png" alt="" style="width: 100%">
+                                </div>
+                            </div>
 
-                            <div class="img-wrapper"><div class="img"></div></div>
+                        </div>
+                        <div class="intelligent-learning-engine-main cursor-ipad-wrapper">
+
+                            <div class="img-wrapper">
+                                <div class="img cursor-ipad">
+                                    <img src="./images/cursor-ipad.png" alt="" style="width: 100%">
+                                </div>
+                            </div>
                             <div class="intelligent-learning-blank"></div>
                             <div class="intelligent-learning-engine-main-lin">
                                 <p class="intelligent-learning-engine-text-title">pad智能终端</p>

@@ -1,0 +1,358 @@
+@media screen and (max-width: 750px) {
+    .income-effect {
+        /*width: 793px;*/
+        /*height: 362px;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-content_left .project-introduction-subtitle {
+        width:504px;
+        height:30px;
+        font-size:22px;
+        font-family:PingFangSC-Regular,PingFangSC;
+        font-weight:400;
+        color:rgba(103,108,118,1);
+        line-height:30px;
+        margin-bottom: 0px;
+    }
+    .header-content-button {
+        /*margin-top: 79px;*/
+    }
+    .suite-bg .index-profile .solution-button{
+        margin-top: 0px;
+    }
+    .four-child-read-book {
+        width: 300px;
+        /*height: 390px;*/
+        margin-left: -35px;
+    }
+    .income-effect img  {
+        width: 100%;
+        height: 100%;
+    }
+    .intro-describe-wrapper .intro-describe-content {
+        /*display: flex;*/
+        /*width: 1180px;*/
+    }
+    .intro-describe-text-title , .three-teacher-title{
+        font-size:32px;
+        height:45px;
+        margin-bottom: 30px;
+        font-family:PingFangSC-Semibold,PingFangSC;
+        font-weight:600;
+        color:rgba(20,31,51,1);
+        line-height:45px;
+    }
+    .intro-describe-content .intro-describe-img .img {
+        width: 300px;height: 70px;border: #1b6d85 1px solid;
+    }
+    .intro-describe-text-line {
+        margin-top: 10px;
+        width:300px;
+        font-size:20px;
+        font-family:PingFangSC-Regular,PingFangSC;
+        font-weight:400;
+        color:rgba(31,35,41,1);
+    }
+    .intro-describe-text-line-wrapper {
+        padding-right: 30px;
+    }
+    .intro-describe-content-blank {
+        width: 146px;
+    }
+    .intro-describe-text2 {
+        /*padding-left: 40px;*/
+    }
+    .intro-describe-content2 {
+        margin-top: 149px;
+    }
+    .three-teacher .three-teacher-wrapper {
+        /*display: flex;*/
+        /*width: 991px;*/
+    }
+
+    .three-teacher-content-text {
+        font-size:20px;
+        font-family:PingFangSC-Regular,PingFangSC;
+        font-weight:400;
+        color:rgba(59,70,87,1);
+        line-height:28px;
+    }
+    .three-teacher-title02 {
+        margin-top: 20px;
+    }
+    .three-teacher-content-text01 {
+        /*width: 416px;*/
+        /*margin-right: 191px;*/
+    }
+    .suite-bg .why-lark .lf-solution {
+
+        display: block;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+         margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+    .three-teacher-content-text02 {
+        /*width: 462px;*/
+    }
+    .three-teacher-content-img01{
+        width: 150px;
+        /*height: 286px;*/
+        margin: 0 auto;
+    }
+
+    .three-teacher-content-img02{
+        width: 150px;
+        margin: 0 auto;
+        /*height: 368px;*/
+        /*margin-left: 52px;*/
+        /*margin-right: 197px;*/
+        /*margin-top: 61px;*/
+    }
+    .three-teacher-content-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .three-teacher-main {
+        /*width: 1180px;*/
+        /*height: 1185px;*/
+        margin-top: 30px;
+    }
+    .three-teacher-main  img{
+        height: 100%;
+        width: 100%;
+    }
+    .course-recording-wrapper {
+        /*display: flex;*/
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .course-recording-content {
+        /*width: 440px;*/
+        margin-top: 60px;
+    }
+    .course-recording-text {
+        margin-top: 29px;
+        padding: 0 2px;
+    }
+    .course-recording-content .course-recording-img img {
+        width: 100%;
+    }
+    .cooperative-contents-title {
+        width:300px;
+        height:28px;
+        font-size:20px;
+        font-family:PingFangSC-Semibold,PingFangSC;
+        font-weight:600;
+        color:rgba(46,132,255,1);
+        line-height:28px;
+        margin-top: 73px;
+    }
+    .cooperative-contents-text {
+        display: flex;
+        width: 299px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .cooperative-contents-text2 {
+        display: flex;
+        width: 300px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .texts {
+        width:100px;
+        height:30px;
+        line-height: 30px;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 0px 13px 0px rgba(0,0,0,0.04);
+        border-radius:4px;
+        text-align: center;
+        margin-top: 10px;
+        font-size:12px;
+        font-family:PingFangSC-Medium,PingFangSC;
+        font-weight:500;
+        color:rgba(20,31,51,1);
+    }
+    .two-teacher__subtitle {
+        text-align: center;
+    }
+    .cooperative-contents-button {
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 750px) {
+    .income-effect {
+        width: 793px;
+        height: 362px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-content_left .project-introduction-subtitle {
+        width:504px;
+        height:30px;
+        font-size:22px;
+        font-family:PingFangSC-Regular,PingFangSC;
+        font-weight:400;
+        color:rgba(103,108,118,1);
+        line-height:30px;
+        margin-bottom: 0px;
+    }
+    .header-content-button {
+        margin-top: 79px;
+    }
+    .four-child-read-book {
+        width: 729px;
+        height: 390px;
+        margin-left: -35px;
+    }
+    .intro-describe-content .intro-describe-img .img {
+        width: 455px;height: 466px;border: #1b6d85 1px solid;margin-left: 57px
+    }
+    .income-effect img  {
+        width: 100%;
+        height: 100%;
+    }
+    .intro-describe-wrapper .intro-describe-content {
+        display: flex;
+        width: 1180px;
+    }
+    .intro-describe-text-title , .three-teacher-title{
+        font-size:32px;
+        height:45px;
+        margin-bottom: 30px;
+        font-family:PingFangSC-Semibold,PingFangSC;
+        font-weight:600;
+        color:rgba(20,31,51,1);
+        line-height:45px;
+    }
+    .intro-describe-text-line {
+        margin-top: 30px;
+        width:482px;
+        font-size:20px;
+        font-family:PingFangSC-Regular,PingFangSC;
+        font-weight:400;
+        color:rgba(31,35,41,1);
+    }
+    .intro-describe-text-line-wrapper {
+        padding-right: 30px;
+    }
+    .intro-describe-content-blank {
+        width: 146px;
+    }
+    .intro-describe-text2 {
+        padding-left: 40px;
+    }
+    .intro-describe-content2 {
+        margin-top: 149px;
+    }
+    .three-teacher .three-teacher-wrapper {
+        display: flex;
+        width: 991px;
+    }
+
+    .three-teacher-content-text {
+        font-size:20px;
+        font-family:PingFangSC-Regular,PingFangSC;
+        font-weight:400;
+        color:rgba(59,70,87,1);
+        line-height:28px;
+    }
+    .three-teacher-title02 {
+        margin-top: 104px;
+    }
+    .three-teacher-content-text01 {
+        width: 416px;
+        margin-right: 191px;
+    }
+
+    .three-teacher-content-text02 {
+        width: 462px;
+    }
+    .three-teacher-content-img01{
+        width: 184px;
+        height: 286px;
+    }
+
+    .three-teacher-content-img02{
+        width: 280px;
+        height: 368px;
+        margin-left: 52px;
+        margin-right: 197px;
+        margin-top: 61px;
+    }
+    .three-teacher-content-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .three-teacher-main {
+        width: 1180px;
+        height: 1185px;
+    }
+    .three-teacher-main  img{
+        height: 100%;
+        width: 100%;
+    }
+    .course-recording-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .course-recording-content {
+        width: 440px;
+        margin-top: 112px;
+    }
+    .course-recording-text {
+        margin-top: 29px;
+        padding: 0 2px;
+    }
+    .course-recording-content .course-recording-img img {
+        width: 100%;
+    }
+    .cooperative-contents-title {
+        width:855px;
+        height:28px;
+        font-size:20px;
+        font-family:PingFangSC-Semibold,PingFangSC;
+        font-weight:600;
+        color:rgba(46,132,255,1);
+        line-height:28px;
+        margin-top: 73px;
+    }
+    .cooperative-contents-text {
+        display: flex;
+        width: 855px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .cooperative-contents-text2 {
+        display: flex;
+        width: 855px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .texts {
+        width:255px;
+        height:68px;
+        line-height: 68px;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 0px 13px 0px rgba(0,0,0,0.04);
+        border-radius:4px;
+        text-align: center;
+        margin-top: 44px;
+        font-size:24px;
+        font-family:PingFangSC-Medium,PingFangSC;
+        font-weight:500;
+        color:rgba(20,31,51,1);
+    }
+    .cooperative-contents-button {
+        margin-top: 98px;
+    }
+}
+
