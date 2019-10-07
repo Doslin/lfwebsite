@@ -677,63 +677,72 @@
 }
 
 .why-lark .content .zh-pic .collaboration-icon {
-    background-image: url(https://s4.pstatp.com/ee/feishu_website/static/img/collaboration-zh.49180f8fd5.png)
+    background-image: url("../images/main-font-image.png");
 }
 
 .why-lark .content .zh-pic .powerful-icon {
-    background-image: url(https://s3.pstatp.com/ee/feishu_website/static/img/powerful-zh.534c214acd.png)
+    /*background-image: url(https://s3.pstatp.com/ee/feishu_website/static/img/powerful-zh.534c214acd.png)*/
+    background-image: url("../images/main-font-image.png");
 }
 
 .why-lark .content .zh-pic .sole-icon {
-    background-image: url(https://s2.pstatp.com/ee/feishu_website/static/img/sole-zh.3e2e2fecfb.png)
+    /*background-image: url(https://s2.pstatp.com/ee/feishu_website/static/img/sole-zh.3e2e2fecfb.png)*/
+    background-image: url("../images/main-font-image.png");
 }
 
 .why-lark .content .integrated-icon {
-    background-image: url(https://s1.pstatp.com/ee/feishu_website/static/img/integrated.f979895e15.png)
+    /*background-image: url(https://s1.pstatp.com/ee/feishu_website/static/img/integrated.f979895e15.png)*/
+    background-image: url("../images/main-font-image.png");
 }
 
 .__webps__ .why-lark .content .integrated-icon {
-    background-image: url(https://s0.pstatp.com/ee/feishu_website/static/img/integrated.63e6ee9cfe.webp)
+    /*background-image: url(https://s0.pstatp.com/ee/feishu_website/static/img/integrated.63e6ee9cfe.webp)*/
+    background-image: url("../images/main-font-image.png");
 }
 
 .why-lark .content .mobile-icon {
-    background-image: url(https://s0.pstatp.com/ee/feishu_website/static/img/mobile.63284cffd5.png)
+    /*background-image: url(https://s0.pstatp.com/ee/feishu_website/static/img/mobile.63284cffd5.png)*/
+    background-image: url("../images/main-font-image.png");
+
 }
 
 .__webps__ .why-lark .content .mobile-icon {
-    background-image: url(https://s2.pstatp.com/ee/feishu_website/static/img/mobile.39923a6215.webp)
+    /*background-image: url(https://s2.pstatp.com/ee/feishu_website/static/img/mobile.39923a6215.webp)*/
+    background-image: url("../images/main-font-image.png");
 }
 
 .why-lark .content .collaboration-icon {
-    background-image: url(https://s2.pstatp.com/ee/feishu_website/static/img/collaboration.1943b9275e.png)
+    /*background-image: url(https://s2.pstatp.com/ee/feishu_website/static/img/collaboration.1943b9275e.png)*/
 }
 
 .__webps__ .why-lark .content .collaboration-icon {
-    background-image: url(https://s4.pstatp.com/ee/feishu_website/static/img/collaboration.b96eef7702.webp)
+    /*background-image: url(https://s4.pstatp.com/ee/feishu_website/static/img/collaboration.b96eef7702.webp)*/
 }
 
 .why-lark .content .powerful-icon {
-    background-image: url(https://s0.pstatp.com/ee/feishu_website/static/img/powerful.50111bdceb.png)
+    /*background-image: url(https://s0.pstatp.com/ee/feishu_website/static/img/powerful.50111bdceb.png)*/
 }
 
 .__webps__ .why-lark .content .powerful-icon {
-    background-image: url(https://s3.pstatp.com/ee/feishu_website/static/img/powerful.b5af74c95b.webp)
+    /*background-image: url(https://s3.pstatp.com/ee/feishu_website/static/img/powerful.b5af74c95b.webp)*/
 }
 
 .why-lark .content .sole-icon {
-    background-image: url(https://s3.pstatp.com/ee/feishu_website/static/img/sole.ce8cb2afa3.png)
+    /*background-image: url(https://s3.pstatp.com/ee/feishu_website/static/img/sole.ce8cb2afa3.png)*/
 }
 
 .__webps__ .why-lark .content .sole-icon {
-    background-image: url(https://s4.pstatp.com/ee/feishu_website/static/img/sole.6fcd716e5b.webp)
+    /*background-image: url(https://s4.pstatp.com/ee/feishu_website/static/img/sole.6fcd716e5b.webp)*/
 }
 
 .why-lark .content .security-icon {
-    background-image: url(https://s3.pstatp.com/ee/feishu_website/static/img/security.9e6e696826.png)
+    /*background-image: url(https://s3.pstatp.com/ee/feishu_website/static/img/security.9e6e696826.png)*/
+    background-image: url("../images/main-font-image.png");
 }
 
 .__webps__ .why-lark .content .security-icon {
-    background-image: url(https://s0.pstatp.com/ee/feishu_website/static/img/security.9d43e7070a.webp)
+    /*background-image: url(https://s0.pstatp.com/ee/feishu_website/static/img/security.9d43e7070a.webp)*/
+    background-image: url("../images/main-font-image.png");
 }
 
 @media screen and (max-width: 750px) {
