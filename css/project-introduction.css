@@ -221,7 +221,8 @@
     }
     .intro-describe-wrapper .intro-describe-content {
         display: flex;
-        width: 1180px;
+        /*width: 1180px;*/
+        align-items: center;
     }
     .intro-describe-text-title , .three-teacher-title{
         font-size:32px;
@@ -244,7 +245,7 @@
         padding-right: 30px;
     }
     .intro-describe-content-blank {
-        width: 146px;
+        width: 346px;
     }
     .intro-describe-text2 {
         padding-left: 40px;

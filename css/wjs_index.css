@@ -965,7 +965,7 @@
         display: flex;
     }
     .intelligent-learning-blank {
-        width: 113px;
+        width: 213px;
         background: white;
     }
     .intelligent-learning-engine-main-lin {
@@ -975,6 +975,17 @@
         justify-content: center;/*项目在主轴上的对齐方式*/
         align-items: left;/*项目在交叉轴上如何对齐*/
         align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
+
+    }
+    .intelligent-learning-engine-text-title {
+        font-size:32px;
+        font-family:PingFangSC-Semibold,PingFangSC;
+        font-weight:600;
+        color:rgba(20,31,51,1);
+        margin-bottom: 52px;
+    }
+    .intelligent-learning-engine-main-lin-text {
+        margin-top: 20px;
     }
     .solution ,.intelligent-learning-engine{
         margin-top: 174px;
