@@ -96,8 +96,8 @@
                     <div class="intro-describe-wrapper">
                         <div class="intro-describe-content">
                             <div class="intro-describe-text">
-                                <div class="intro-describe-img hidden-sm hidden-md hidden-lg">
-                                    <img src="./images/pain-points.png" alt="" class="intro-describe-img1" style="width: 319px" height="290px">
+                                <div class="intro-describe-img hidden-sm hidden-md hidden-lg" style="width: 100%; text-align: center" >
+                                    <img src="./images/pain-points.png" alt="" class="intro-describe-img1" style="width: 200px">
                                 </div>
                                 <div class="intro-describe-text-title">培训机构痛点</div>
                                 <div class="intro-describe-text-line-wrapper">
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                     <div class="index-profile three-teacher">
-                        <div class="index-profile__title index-profile__title--zh">AI三师课</div>
+                        <div class="index-profile__title index-profile__title--zh ">AI三师课</div>
                         <div class="index-profile__subtitle index-profile__subtitle--zh two-teacher__subtitle">
                             双师课堂+领斐智适应学习系统
                         </div>
@@ -245,7 +245,7 @@
     <!--合作伙伴-->
     <footer class="lf-partner">
         <div class="lf-partner-title">联系我们</div>
-        <div class="lf-partner-title-tip">请您填写表单信息，领斐团队将尽快与您联系。</div>
+        <div class="lf-partner-title-tip">请您填写手机号，领斐团队将尽快与您联系。</div>
         <form id="__vtigerWebForm" name="官网表单"    method="post"  accept-charset="utf-8" enctype="multipart/form-data" >
             <input type="hidden" name="__vtrftk"
                    value="sid:2abd7bc10e9480bc6f97583350ba4d07240fa2e3,1569401550">
@@ -253,40 +253,61 @@
             <input type="hidden"   name="urlencodeenable"  value="1">
             <input type="hidden"  name="name"  value="官网表单">
             <div class="self-info">
-                <div class="self-info-title">个人信息</div>
+<!--                <div class="self-info-title">个人信息</div>-->
                 <div class="self-info-main">
                     <input type="hidden" name="closingdate" data-label="" value="2019-10-31" required="">
                     <input type="text" name="potentialname" data-label="" value="官网收集" required="" style="color: white; border: transparent">
-                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><input placeholder="姓名" type="text" name="cf_896" data-label="" value="" required="">
-                    </div>
-                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><span></span><input placeholder="城市及地区" >
-                    </div>
-                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><span></span><input placeholder="邮箱" type="email" name="cf_900" data-label="" value="">
-                    </div>
-                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><input placeholder="手机号" type="text" name="cf_898" data-label="" value="" required="" >
-                    </div>
-                </div>
-            </div>
-            <div class="self-info">
-                <div class="self-info-title">机构信息</div>
-                <div class="self-info-main">
-                    <div class="self-info-main-text"><input placeholder="机构名称" >
-                    </div>
-                    <div class="self-info-main-text"><input placeholder="学生人数"  >
+<!--                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><input placeholder="姓名" type="text" name="cf_896" data-label="" value="" required="">-->
+<!--                    </div>-->
+<!--                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><span></span><input placeholder="城市及地区" >-->
+<!--                    </div>-->
+<!--                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><span></span><input placeholder="邮箱" type="email" name="cf_900" data-label="" value="">-->
+<!--                    </div>-->
+                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><input placeholder="手机号" type="number" name="cf_898" data-label="" value="" required="" >
                     </div>
                 </div>
             </div>
+<!--            <div class="self-info">-->
+<!--                <div class="self-info-title">机构信息</div>-->
+<!--                <div class="self-info-main">-->
+<!--                    <div class="self-info-main-text"><input placeholder="机构名称" >-->
+<!--                    </div>-->
+<!--                    <div class="self-info-main-text"><input placeholder="学生人数"  >-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="lf-partner-button">
-                <input type="submit" style="color: #FFFFFF" id="submit"></input>
+                <input type="submit" style="color: #FFFFFF"  id="submit"   ></input>
             </div>
             <input type="hidden" id="captchaUrl"
                    value="http://crm.lfen.com.cn/modules/Settings/Webforms/actions/CheckCaptcha.php">
             <input type="hidden" id="recaptcha_validation_value">
         </form>
     </footer>
+    <footer class="lf-footer">
+        <div class="footerContainer" >
+            <div class="footer-container-content">
+                <p class="mainTitle">领斐教育北京总部</p>
+                <p>地址：北京市东城区南竹杆胡同2号银河SOHOA座7层</p>
+                <p>电话：010-59576287</p>
+                <p>备案号：黑ICP备19000214号</p>
+            </div>
+            <div class="lf-img-wrapper">
+                <div class="imgArea">
+                    <p>领斐英语微信公众号</p>
+                    <img class="scan" src="./images/weChat.png">
+                </div>
+                <div class="imgArea">
+                    <p>领斐英语官方微博</p>
+                    <img class="scan" src="./images/scan.png">
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 <script src="./lib/jquery/jquery.min.js"></script>
 <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/layer/2.3/layer.js"></script>
 </body>
 <script type="text/javascript">
     window.onload = function () {
@@ -296,22 +317,18 @@
         M = M ? [M[1], M[2]] : [N, navigator.appVersion, "-?"];
         var browserName = M[0];
         var form = document.getElementById("__vtigerWebForm"), inputs = form.elements;
-        form.onsubmit = function () {
+        form.onsubmit = function (event) {
             var required = [], att, val;
             for (var i = 0; i < inputs.length; i++) {
                 att = inputs[i].getAttribute("required");
                 val = inputs[i].value;
                 type = inputs[i].type;
-                if (type == "email") {
+                if (type == "number") {
                     if (val != "") {
-                        var elemLabel = inputs[i].getAttribute("label");
-                        var emailFilter = /^[_/a-zA-Z0-9]+([!"#$%&()*+,./:;<=>?\^_`{|}~-]?[a-zA-Z0-9/_/-])*@[a-zA-Z0-9]+([\_\-\.]?[a-zA-Z0-9]+)*\.([\-\_]?[a-zA-Z0-9])+(\.?[a-zA-Z0-9]+)?$/;
-                        var illegalChars = /[\(\)\<\>\,\;\:\"\[\]]/;
-                        if (!emailFilter.test(val)) {
-                            alert("For " + elemLabel + " field please enter valid email address");
-                            return false;
-                        } else if (val.match(illegalChars)) {
-                            alert(elemLabel + " field contains illegal characters");
+                        var phone =/^1(3|4|5|6|7|8|9)\d{9}$/;
+                        console.log(val)
+                        if (!phone.test(val)) {
+                            alert("请输入正确的手机号");
                             return false;
                         }
                     }
@@ -369,10 +386,6 @@
                 alert("Maximum allowed file size including all files is 50MB.");
                 return false;
             }
-            $('#__vtigerWebForm').on('submit', function(){
-                registPost()
-                event.preventDefault() //阻止form表单默认提交
-            })
             $.ajax({
                 type: "post",
                 url: "http://crm.lfen.com.cn/modules/Webforms/capture.php",
@@ -386,7 +399,10 @@
                     console.log(data)
                 }
             });
+            layer.msg('提交成功');
+            event.preventDefault() //阻止form表单默认提交
         };
+
     };
     var jsonp = {
         callbackCounter: 0, fetch: function (url) {

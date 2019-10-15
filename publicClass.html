@@ -142,33 +142,180 @@
     </div>
     <!--合作伙伴-->
     <footer class="lf-partner">
-        <div class="lf-partner-title">具有意向的老师，可填写下面表单</div>
+        <div class="lf-partner-title">具有意向的老师，可填写手机号码</div>
         <div class="lf-partner-title-tip">领斐智能会在24小时之内与您联系，为了中国教育的发展，期待您的加入！</div>
-        <div class="self-info">
-            <div class="self-info-title">个人信息</div>
-            <div class="self-info-main">
-                <div class="self-info-main-text"><span style="color: #FA6363">*</span><input placeholder="姓名" >
+        <form id="__vtigerWebForm" name="官网表单"  onsubmit="return false;"   method="post"  accept-charset="utf-8" enctype="multipart/form-data" >
+            <input type="hidden" name="__vtrftk"
+                   value="sid:2abd7bc10e9480bc6f97583350ba4d07240fa2e3,1569401550">
+            <input type="hidden" name="publicid" value="1534fd3cbdf890499e9af1df9205199a">
+            <input type="hidden"   name="urlencodeenable"  value="1">
+            <input type="hidden"  name="name"  value="官网表单">
+            <div class="self-info">
+                <div class="self-info-main">
+                    <input type="hidden" name="closingdate" data-label="" value="2019-10-31" required="">
+                    <input type="text" name="potentialname" data-label="" value="官网收集" required="" style="color: white; border: transparent">
+                    <div class="self-info-main-text" ><span style="color: #FA6363"></span><input  placeholder="姓名" type="hidden" name="cf_896" data-label="" value="游客" required="">
+                    </div>
+                    <div class="self-info-main-text"><span style="color: #FA6363"></span><span></span><input  placeholder="邮箱" type="hidden" type="email" name="cf_900" value="游客@xx.com" data-label="" value="">
+                    </div>
+                    <div class="self-info-main-text"><span style="color: #FA6363">*</span><input placeholder="手机号" type="text" name="cf_898" data-label="" value="" required="" >
+                    </div>
                 </div>
-                <div class="self-info-main-text"><span style="color: #FA6363">*</span><span></span><input placeholder="城市及地区" >
+            </div>
+
+            <div class="lf-partner-button">
+                <input type="submit" style="color: #FFFFFF"  id="submit"/>
+            </div>
+            <input type="hidden" id="captchaUrl"
+                   value="http://crm.lfen.com.cn/modules/Settings/Webforms/actions/CheckCaptcha.php">
+            <input type="hidden" id="recaptcha_validation_value">
+        </form>
+    </footer>
+    <footer class="lf-footer">
+        <div class="footerContainer" >
+            <div class="footer-container-content">
+                <p class="mainTitle">领斐教育北京总部</p>
+                <p>地址：北京市东城区南竹杆胡同2号银河SOHOA座7层</p>
+                <p>电话：010-59576287</p>
+                <p>备案号：黑ICP备19000214号</p>
+            </div>
+            <div class="lf-img-wrapper">
+                <div class="imgArea">
+                    <p>领斐英语微信公众号</p>
+                    <img class="scan" src="./images/weChat.png">
                 </div>
-                <div class="self-info-main-text"><span style="color: #FA6363">*</span><input placeholder="手机号" >
+                <div class="imgArea">
+                    <p>领斐英语官方微博</p>
+                    <img class="scan" src="./images/scan.png">
                 </div>
             </div>
         </div>
-        <div class="self-info">
-            <div class="self-info-title">机构信息</div>
-            <div class="self-info-main">
-                <div class="self-info-main-text"><input placeholder="机构名称" >
-                </div>
-                <div class="self-info-main-text"><input placeholder="学生人数" >
-                </div>
-            </div>
-        </div>
-        <div class="lf-partner-button">
-        <button type="button" style="color: #FFFFFF" id="submit">提交</button></div>
     </footer>
 </div>
 <script src="./lib/jquery/jquery.min.js"></script>
 <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/layer/2.3/layer.js"></script>
 </body>
+<script type="text/javascript">
+    window.onload = function () {
+        var N = navigator.appName, ua = navigator.userAgent, tem;
+        var M = ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);
+        if (M && (tem = ua.match(/version\/([\.\d]+)/i)) != null) M[2] = tem[1];
+        M = M ? [M[1], M[2]] : [N, navigator.appVersion, "-?"];
+        var browserName = M[0];
+        var form = document.getElementById("__vtigerWebForm"), inputs = form.elements;
+        form.onsubmit = function (event) {
+            var required = [], att, val;
+            for (var i = 0; i < inputs.length; i++) {
+                att = inputs[i].getAttribute("required");
+                val = inputs[i].value;
+                type = inputs[i].type;
+                if (type == "number") {
+                    if (val != "") {
+                        var phone =/^1(3|4|5|6|7|8|9)\d{9}$/;
+                        console.log(val)
+                        if (!phone.test(val)) {
+                            alert("请输入正确的手机号");
+                            return false;
+                        }
+                    }
+                }
+                if (att != null) {
+                    if (val.replace(/^\s+|\s+$/g, "") == "") {
+                        required.push(inputs[i].getAttribute("label"));
+                    }
+                }
+            }
+            if (required.length > 0) {
+                alert("The following fields are required: " + required.join());
+                return false;
+            }
+            var numberTypeInputs = document.querySelectorAll("input[type=number]");
+            for (var i = 0; i < numberTypeInputs.length; i++) {
+                val = numberTypeInputs[i].value;
+                var elemLabel = numberTypeInputs[i].getAttribute("label");
+                var elemDataType = numberTypeInputs[i].getAttribute("datatype");
+                if (val != "") {
+                    if (elemDataType == "double") {
+                        var numRegex = /^[+-]?\d+(\.\d+)?$/;
+                    } else {
+                        var numRegex = /^[+-]?\d+$/;
+                    }
+                    if (!numRegex.test(val)) {
+                        alert("For " + elemLabel + " field please enter valid number");
+                        return false;
+                    }
+                }
+            }
+            var dateTypeInputs = document.querySelectorAll("input[type=date]");
+            for (var i = 0; i < dateTypeInputs.length; i++) {
+                dateVal = dateTypeInputs[i].value;
+                var elemLabel = dateTypeInputs[i].getAttribute("label");
+                if (dateVal != "") {
+                    var dateRegex = /^[1-9][0-9]{3}-(0[1-9]|1[0-2]|[1-9]{1})-(0[1-9]|[1-2][0-9]|3[0-1]|[1-9]{1})$/;
+                    if (!dateRegex.test(dateVal)) {
+                        alert("For " + elemLabel + " field please enter valid date in required format");
+                        return false;
+                    }
+                }
+            }
+            var inputElems = document.getElementsByTagName("input");
+            var totalFileSize = 0;
+            for (var i = 0; i < inputElems.length; i++) {
+                if (inputElems[i].type.toLowerCase() === "file") {
+                    var file = inputElems[i].files[0];
+                    if (typeof file !== "undefined") {
+                        var totalFileSize = totalFileSize + file.size;
+                    }
+                }
+            }
+            if (totalFileSize > 52428800) {
+                alert("Maximum allowed file size including all files is 50MB.");
+                return false;
+            }
+            $.ajax({
+                type: "post",
+                url: "http://crm.lfen.com.cn/modules/Webforms/capture.php",
+                dataType: "json",
+                async: false,
+                data: $('#__vtigerWebForm').serialize(),
+                success: function (data) {
+                    console.log(data)
+                },
+                error: function (data) {
+                    console.log(data)
+                }
+            });
+            layer.msg('提交成功');
+            event.preventDefault() //阻止form表单默认提交
+        };
+
+    };
+    var jsonp = {
+        callbackCounter: 0, fetch: function (url) {
+            url = url + "&callId=" + this.callbackCounter;
+            var scriptTag = document.createElement("SCRIPT");
+            scriptTag.src = url;
+            scriptTag.async = true;
+            scriptTag.id = "JSONPCallback_" + this.callbackCounter;
+            scriptTag.type = "text/javascript";
+            document.getElementsByTagName("HEAD")[0].appendChild(scriptTag);
+            this.callbackCounter++;
+        }
+    };
+
+    function JSONPCallback(data) {
+        console.log(data)
+        if (data.result.success == true) {
+            document.getElementById("recaptcha_validation_value").value = true;
+            var form = document.getElementById("__vtigerWebForm");
+            form.submit();
+        } else {
+            document.getElementById("recaptcha_reload").click();
+            alert("you entered wrong captcha");
+        }
+        var element = document.getElementById("JSONPCallback_" + data.result.callId);
+        element.parentNode.removeChild(element);
+    }
+</script>
 </html>

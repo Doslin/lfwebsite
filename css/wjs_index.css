@@ -289,8 +289,8 @@
         border-radius:29px;
     }
     .header-content_right, .header-content_right  {
-        width: 251px;
-        margin: -17vw auto 0;
+        width: 180px;
+        margin: 1vw auto 0;
     }
     .header-content_img {
         width: 100%;
@@ -1003,6 +1003,8 @@
         align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
     }
     .solution-button > div {
+        width: 100%;
+        text-align: center;
         font-size:16px; font-family:PingFangSC-Medium,PingFangSC; font-weight:500; color:rgba(0,106,255,1);
     }
     .lf-partner {
@@ -1089,7 +1091,8 @@
     .pain-spot-title {
         font-size: 5.33333333vw;
         line-height: 1.2;
-        font-weight: 700
+        font-weight: 700;
+        margin-bottom: 10px;
     }
     .pain-spot-text-title ,.intelligent-learning-engine-text-title{
         font-family:PingFangSC-Semibold,PingFangSC;
@@ -1161,6 +1164,9 @@
             align-items: center;/*项目在交叉轴上如何对齐*/
             align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
         }
+        .solution img {
+            height: 100px;
+        }
         .solution-main{
             /*display: flex;*/
             margin-top: 66px;
@@ -1173,7 +1179,7 @@
             justify-content: center;/*项目在主轴上的对齐方式*/
             align-items: center;/*项目在交叉轴上如何对齐*/
             align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
-            margin-top: 47px;
+            margin-top: 10px;
         }
          .img-wrapper {
             display: flex;
@@ -1184,7 +1190,7 @@
             align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
         }
         .solution-main .img {
-            margin: 0 25%;
+            /*margin: 0 25%;*/
             width:100px;
             height:100px;
             /*background:rgba(216,216,216,1);*/
@@ -1202,9 +1208,15 @@
             justify-content: center;/*项目在主轴上的对齐方式*/
             align-items: left;/*项目在交叉轴上如何对齐*/
             align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
-            margin-top: 78px;
+            margin-top: 20px;
         }
-        .solution ,.intelligent-learning-engine{
+        .intelligent-learning-engine-main img {
+            height: 100px;
+        }
+        .intelligent-learning-engine-main .intelligent-learning-engine-main-lin-3 {
+            margin-top: 0;
+        }
+        .intelligent-learning-engine{
             margin-top: 80px;
         }
         .solution-button {
@@ -1220,6 +1232,8 @@
             align-content: center;/*定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用*/
         }
         .solution-button > div {
+            width: 100%;
+            text-align: center;
             font-size:16px; font-family:PingFangSC-Medium,PingFangSC; font-weight:500; color:rgba(0,106,255,1);
         }
         .intelligent-learning-engine-main .img {
@@ -1231,7 +1245,7 @@
         }
         .intelligent-learning-engine-main {
             /*display: flex;*/
-            margin-top: 20px;
+            margin-top: 50px;
         }
         .intelligent-learning-blank {
             width: 113px;
@@ -1276,7 +1290,7 @@
         .self-info {
             display: flex;
             margin-bottom: 20px;
-            margin-top: 40px;
+            justify-content: center;
         }
         .self-info-main {
             margin-left: 10px;
@@ -1325,6 +1339,128 @@
             background:rgba(0,106,255,1);
             border-radius:29px;
         }
+    .lf-footer .intro{
+        margin-left: 20px;
+        font-size: 16px;
+        width: 100%;
+        color:white;
+        margin-bottom: 7px;
+    }
+
+    .lf-footer .scan{
+        width:120px;
+        height: 120px;
+        background-color: white;
+        padding:3px;
+    }
+
+    .lf-footer .imgArea{
+        display: inline-block;
+        float: right;
+        /*margin-left: 100px;*/
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .lf-footer .imgArea p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footerContainer .lf-img-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .lf-footer{
+        background-color: #464241;
+        padding: 30px 0;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .lf-footer p{
+        /*text-align: center;*/
+        color: white;
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+
+    .lf-footer .mainTitle{
+        font-weight: bold;
+        color:white;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .lf-footer .footerContainer{
+        /*width: calc(100% - 400px);*/
+        height: 500px;
+        margin:0 auto;
+        padding: 30px 0;
+    }
+    .footer-container-content {
+        padding: 0 8.4vw;
+    }
+}
+
+
+@media screen and (min-width: 750px) {
+    .footer-container-content {
+        display:inline-block;
+        margin-bottom:15px
+    }
+    .lf-footer .intro{
+        margin-left: 20px;
+        font-size: 16px;
+        width: 100%;
+        color:white;
+        margin-bottom: 7px;
+    }
+
+    .lf-footer .scan{
+        width:120px;
+        height: 120px;
+        background-color: white;
+        padding:3px;
+    }
+
+    .lf-footer .lf-img-wrapper .imgArea{
+        display: inline-block;
+        float: right;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    .lf-footer .lf-img-wrapper .imgArea p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .lf-footer{
+        background-color: #464241;
+        padding: 30px 0;
+    }
+
+    .lf-footer p{
+        color: white;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    .lf-footer .mainTitle{
+        font-weight: bold;
+        color:white;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .lf-footer .footerContainer{
+        width: calc(100% - 400px);
+        margin:0 auto;
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 
